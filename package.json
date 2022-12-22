@@ -1,0 +1,43 @@
+{
+    "name": "new",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/core": "^7.14.0",
+        "axios": "^0.21.1",
+        "browser-image-compression": "^1.0.14",
+        "dom": "0.0.3",
+        "gray-matter": "^4.0.2",
+        "mongodb": "^3.6.4",
+        "next": "^10.0.0",
+        "next-pwa": "^3.1.1",
+        "nprogress": "^0.2.0",
+        "react": "^17.0.1",
+        "react-circular-progressbar": "^2.0.4",
+        "react-dom": "^17.0.1",
+        "react-icons": "^4.2.0",
+        "react-markdown": "^6.0.0",
+        "react-particles-js": "^3.3.0",
+        "react-switch": "^5.0.1",
+        "react-syntax-highlighter": "^15.4.3",
+        "universal-cookie": "^4.0.3"
+    },
+    "devDependencies": {
+        "eslint": "^7.29.0",
+        "eslint-config-next": "^11.0.0"
+    },
+    "extends": "next",
+    "rules": {
+        "react/no-unescaped-entities": "off",
+        "@next/next/no-page-custom-font": "off"
+    }
+}
